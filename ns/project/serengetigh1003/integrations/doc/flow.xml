@@ -169,11 +169,12 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">&lt;Orders&gt;
-    &lt;Order&gt;1001&lt;/Order&gt;
-    &lt;Order&gt;1002&lt;/Order&gt;
-    &lt;Order&gt;1003&lt;/Order&gt;
-&lt;/Orders&gt;</value>
+  <value name="xml">&lt;Employees&gt;
+    &lt;Employee&gt;
+        &lt;name&gt;Arti&lt;/name&gt;
+&lt;age&gt;46&lt;/age&gt;
+&lt;Employees&gt;
+   </value>
 </Values>
 </DATA>
 </MAPSET>
