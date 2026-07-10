@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arti.Khare@ibm.com</value>
-    <value name="lastModifiedDate">1783681609155</value>
+    <value name="lastModifiedDate">1783682351067</value>
     <value name="displayName">doc</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -59,38 +59,14 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">xmlStringToXMLNode</value>
-          <value name="serviceName">pub.xml:xmlStringToXMLNode</value>
+          <value name="displayName">loadEnhancedXMLNode</value>
+          <value name="serviceName">pub.xml:loadEnhancedXMLNode</value>
           <value name="transformerSupport">true</value>
         </record>
         <number name="ui_step_index" type="Long">1</number>
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
-        <null name="mapSet"/>
-        <null name="outputMapSet"/>
-        <Boolean name="xmlMapsetSupported">true</Boolean>
-      </record>
-      <record name="/1" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">SERVICES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">XML</value>
-          <value name="groupName">xml</value>
-          <null name="services"/>
-        </record>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">xmlNodeToDocument</value>
-          <value name="serviceName">pub.xml:xmlNodeToDocument</value>
-          <value name="transformerSupport">true</value>
-        </record>
-        <number name="ui_step_index" type="Long">2</number>
-        <value name="nodePathNew">1</value>
-        <number name="nodeIndex" type="Long">1</number>
-        <number name="lineNumberForDebug" type="Long">2</number>
-        <null name="mapSet"/>
-        <null name="outputMapSet"/>
-        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
