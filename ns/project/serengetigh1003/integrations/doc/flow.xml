@@ -602,7 +602,13 @@
 &lt;root&gt;
     &lt;name&gt;Arti Khare&lt;/name&gt;
     &lt;email&gt;Arti.Khare@ibm.com&lt;/email&gt;
-&lt;/root&gt;</value>
+&lt;/root&gt;
+&lt;root1&gt;
+    &lt;name1&gt;Aarti Khare&lt;/name1&gt;
+    &lt;email1&gt;Aarti.Khare@ibm.com&lt;/email1&gt;
+&lt;/root1&gt;
+
+</value>
 </Values>
 </DATA>
 </MAPSET>
