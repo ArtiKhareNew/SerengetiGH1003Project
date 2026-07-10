@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arti.Khare@ibm.com</value>
-    <value name="lastModifiedDate">1783686357459</value>
+    <value name="lastModifiedDate">1783686697733</value>
     <value name="displayName">doc</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -104,9 +104,11 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="transformerSupport">true</value>
           <value name="displayName">queryXMLNode</value>
           <value name="serviceName">pub.xml:queryXMLNode</value>
-          <value name="transformerSupport">true</value>
+          <Boolean name="enabled">true</Boolean>
+          <double name="rank" type="Double">0.05</double>
         </record>
         <number name="ui_step_index" type="Long">3</number>
         <value name="nodePathNew">2</value>
