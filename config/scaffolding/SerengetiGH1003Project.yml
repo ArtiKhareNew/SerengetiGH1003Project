@@ -7,12 +7,24 @@ packages:
   gitUrl: https://github.com/ArtiKhareNew
   gitUsername: ArtiKhareNew
   gitBranch: main
+- name: DivisionPackage
+  version: "5.0"
+  gitServerName: srcGithubCtrl_Arti
+  gitUrl: https://github.com/ArtiKhareNew
+  gitUsername: ArtiKhareNew
+  gitBranch: main
 services:
 - serviceName: project.serengetigh1003.integrations:doc
   packages:
   - name: SerengetiGH1003Project
     version: "1.0"
-- serviceName: pub.xml:loadEnhancedXMLNode
+  - name: DivisionPackage
+    version: "5.0"
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1024
+- serviceName: pub.xml:xmlStringToXMLNode
   packages:
   - name: WmPublic
     version: 12.1.0.0.1024
@@ -24,14 +36,8 @@ services:
   packages:
   - name: SerengetiGH1003Project
     version: "1.0"
-- serviceName: pub.client:http
-  packages:
-  - name: WmPublic
-    version: 12.1.0.0.1024
-- serviceName: pub.xml:xmlStringToXMLNode
-  packages:
-  - name: WmPublic
-    version: 12.1.0.0.1024
+  - name: DivisionPackage
+    version: "5.0"
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
