@@ -193,4 +193,8 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
+
+<INVOKE NAME="XML" SERVICE="pub.xml:xmlNodeToDocument">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
