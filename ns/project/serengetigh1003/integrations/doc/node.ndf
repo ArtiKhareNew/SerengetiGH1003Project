@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arti.Khare@ibm.com</value>
-    <value name="lastModifiedDate">1783684778719</value>
+    <value name="lastModifiedDate">1783684989063</value>
     <value name="displayName">doc</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -108,10 +108,10 @@
           <value name="transformerSupport">true</value>
         </record>
         <Boolean name="serviceReferenceResolved">true</Boolean>
-        <value name="nodePathForDebug">2</value>
         <value name="nodePathNew">2</value>
         <number name="nodeIndex" type="Long">2</number>
         <number name="lineNumberForDebug" type="Long">3</number>
+        <value name="nodePathForDebug">2</value>
       </record>
       <record name="/3" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -122,16 +122,14 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">freeXMLNode</value>
-          <value name="serviceName">pub.xml:freeXMLNode</value>
+          <value name="displayName">getNextXMLNode</value>
+          <value name="serviceName">pub.xml:getNextXMLNode</value>
           <value name="transformerSupport">true</value>
         </record>
         <number name="ui_step_index" type="Long">4</number>
         <value name="nodePathNew">3</value>
         <number name="nodeIndex" type="Long">3</number>
         <number name="lineNumberForDebug" type="Long">4</number>
-        <null name="mapSet"/>
-        <null name="outputMapSet"/>
       </record>
     </record>
   </record>
