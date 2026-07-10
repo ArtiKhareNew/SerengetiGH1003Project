@@ -169,7 +169,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">&lt;emp:Employee xmlns:emp="http://example.com/employee"&gt;
+  <value name="xml">&lt;emp:Employee&gt;
     &lt;emp:name&gt;Arti Khare&lt;/emp:name&gt;
 &lt;/emp:Employee&gt;</value>
 </Values>
