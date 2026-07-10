@@ -171,7 +171,7 @@
 <Values version="2.0">
   <value name="xml">&lt;?xml version="1.0"?&gt;
 &lt;root&gt;
-    &lt;name&gt;Arti &amp;amp; Khare&lt;/name&gt;
+    &lt;name&gt;Arti &amp; Khare&lt;/name&gt;
     &lt;email&gt;Arti.Khare@ibm.com&lt;/email&gt;
 &lt;/root&gt; 
 </value>
@@ -184,6 +184,15 @@
 
 <Values version="2.0">
   <value name="xml">autoDetect</value>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/encoding;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">UTF-8</value>
 </Values>
 </DATA>
 </MAPSET>
