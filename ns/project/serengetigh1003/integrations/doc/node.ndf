@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arti.Khare@ibm.com</value>
-    <value name="lastModifiedDate">1783673749865</value>
+    <value name="lastModifiedDate">1783679090815</value>
     <value name="displayName">doc</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -59,8 +59,8 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">documentToXMLString</value>
-          <value name="serviceName">pub.xml:documentToXMLString</value>
+          <value name="displayName">xmlStringToXMLNode</value>
+          <value name="serviceName">pub.xml:xmlStringToXMLNode</value>
           <value name="transformerSupport">true</value>
         </record>
         <number name="ui_step_index" type="Long">1</number>
@@ -69,7 +69,6 @@
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
-        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
