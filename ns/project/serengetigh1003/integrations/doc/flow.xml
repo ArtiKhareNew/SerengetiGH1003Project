@@ -171,7 +171,7 @@
 <Values version="2.0">
   <value name="xml">&lt;?xml version="1.0"?&gt;
 &lt;root&gt;
-    &lt;name&gt;Arti &amp; Khare&lt;/name&gt;
+    &lt;name&gt;Arti &amp;amp; Khare&lt;/name&gt;
     &lt;email&gt;Arti.Khare@ibm.com&lt;/email&gt;
 &lt;/root&gt; 
 </value>
