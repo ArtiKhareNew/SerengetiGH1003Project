@@ -627,7 +627,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="XML" SERVICE="pub.xml:xmlNodeToDocument">
+<INVOKE NAME="XML" SERVICE="pub.xml:getXMLNodeType">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
