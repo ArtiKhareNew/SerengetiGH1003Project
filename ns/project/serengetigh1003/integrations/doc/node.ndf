@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arti.Khare@ibm.com</value>
-    <value name="lastModifiedDate">1783685160649</value>
+    <value name="lastModifiedDate">1783685277526</value>
     <value name="displayName">doc</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -104,10 +104,10 @@
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
           <value name="transformerSupport">true</value>
-          <value name="displayName">getNextXMLNode</value>
-          <value name="serviceName">pub.xml:getNextXMLNode</value>
+          <value name="displayName">getXMLNodeIterator</value>
+          <value name="serviceName">pub.xml:getXMLNodeIterator</value>
           <Boolean name="enabled">true</Boolean>
-          <double name="rank" type="Double">0.4</double>
+          <double name="rank" type="Double">0.03</double>
         </record>
         <number name="ui_step_index" type="Long">3</number>
         <value name="nodePathNew">2</value>
@@ -125,15 +125,33 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">xmlNodeToDocument</value>
-          <value name="serviceName">pub.xml:xmlNodeToDocument</value>
           <value name="transformerSupport">true</value>
+          <value name="displayName">getNextXMLNode</value>
+          <value name="serviceName">pub.xml:getNextXMLNode</value>
+          <Boolean name="enabled">true</Boolean>
+          <double name="rank" type="Double">0.06999999999999999</double>
         </record>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <value name="nodePathNew">2</value>
         <number name="nodeIndex" type="Long">2</number>
         <number name="lineNumberForDebug" type="Long">3</number>
         <value name="nodePathForDebug">2</value>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+      </record>
+      <record name="/4" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">XML</value>
+          <value name="groupName">xml</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">xmlNodeToDocument</value>
+          <value name="serviceName">pub.xml:xmlNodeToDocument</value>
+          <value name="transformerSupport">true</value>
+        </record>
       </record>
     </record>
   </record>

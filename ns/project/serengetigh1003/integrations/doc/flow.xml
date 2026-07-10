@@ -613,6 +613,10 @@
 </MAP>
 </INVOKE>
 
+<INVOKE NAME="XML" SERVICE="pub.xml:getXMLNodeIterator">
+  <COMMENT></COMMENT>
+</INVOKE>
+
 <INVOKE NAME="XML" SERVICE="pub.xml:getNextXMLNode">
   <COMMENT></COMMENT>
 </INVOKE>
