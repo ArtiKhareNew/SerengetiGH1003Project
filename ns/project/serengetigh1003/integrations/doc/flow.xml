@@ -169,39 +169,9 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">&lt;?xml version="1.0"?&gt;
-&lt;root&gt;
-    &lt;name&gt;Arti &amp;amp; Khare&lt;/name&gt;
-    &lt;email&gt;Arti.Khare@ibm.com&lt;/email&gt;
-&lt;/root&gt; 
-</value>
-</Values>
-</DATA>
-</MAPSET>
-
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/isXML;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">autoDetect</value>
-</Values>
-</DATA>
-</MAPSET>
-
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/encoding;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">UTF-8sa</value>
-</Values>
-</DATA>
-</MAPSET>
-
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/expandGeneralEntities;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">true</value>
+  <value name="xml">&lt;emp:Employee xmlns:emp="http://example.com/employee"&gt;
+    &lt;emp:name&gt;Arti Khare&lt;/emp:name&gt;
+&lt;/emp:Employee&gt;</value>
 </Values>
 </DATA>
 </MAPSET>
