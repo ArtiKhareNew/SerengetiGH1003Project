@@ -10,19 +10,19 @@
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
-    <value name="DivisionPackage">5.0</value>
+    <value name="DivisionPackage">1.0</value>
   </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">41</value>
+  <value name="build">42</value>
   <null name="description"/>
   <value name="created_date">10-07-2026 07:25:10 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-07-10T11:48:59.612331924Z</value>
+  <value name="lastUpdated">2026-07-10T11:52:25.795714964Z</value>
   <value name="wmProjectId">fl5d0f168420b44914a271f9973076e859</value>
   <value name="creator">Arti Khare</value>
 </Values>
